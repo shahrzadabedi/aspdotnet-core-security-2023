@@ -5,7 +5,13 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityApp.API", "SecurityApp.API\SecurityApp.API.csproj", "{5072AD8C-9F08-4EC7-8CD4-6E7800A003D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityApp.MVC", "SecurityApp.MVC\SecurityApp.MVC.csproj", "{34831811-C839-4266-9FD9-092E29F37762}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityApp.MVC", "SecurityApp.MVC\SecurityApp.MVC.csproj", "{34831811-C839-4266-9FD9-092E29F37762}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityApp.Service", "SecurityApp.Service\SecurityApp.Service.csproj", "{A07A0951-4921-4DAB-AC35-4043173BF914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityApp.Core", "SecurityApp.Core\SecurityApp.Core.csproj", "{5FA3DB18-41F7-46AE-8B73-FB0607BE5C57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityApp.Repo", "SecurityApp.Repo\SecurityApp.Repo.csproj", "{DEE87414-3B0E-4391-8FB9-39D3539595D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{34831811-C839-4266-9FD9-092E29F37762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34831811-C839-4266-9FD9-092E29F37762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34831811-C839-4266-9FD9-092E29F37762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07A0951-4921-4DAB-AC35-4043173BF914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07A0951-4921-4DAB-AC35-4043173BF914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07A0951-4921-4DAB-AC35-4043173BF914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07A0951-4921-4DAB-AC35-4043173BF914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA3DB18-41F7-46AE-8B73-FB0607BE5C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA3DB18-41F7-46AE-8B73-FB0607BE5C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA3DB18-41F7-46AE-8B73-FB0607BE5C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA3DB18-41F7-46AE-8B73-FB0607BE5C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE87414-3B0E-4391-8FB9-39D3539595D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE87414-3B0E-4391-8FB9-39D3539595D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE87414-3B0E-4391-8FB9-39D3539595D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE87414-3B0E-4391-8FB9-39D3539595D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
